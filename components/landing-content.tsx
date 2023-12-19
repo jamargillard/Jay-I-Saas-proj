@@ -9,7 +9,7 @@ const testimonials = [
     title: "Software Engineer",
     description: "This is the best application I've ever used!",
   },
-  {
+  {          
     name: "Antonio",
     avatar: "A",
     title: "Designer",
