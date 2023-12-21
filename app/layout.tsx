@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: 'Jay-I',
   description: 'AI Platform',
 }
-
+     //commit change
 export default async function RootLayout({
   children,
 }: {
