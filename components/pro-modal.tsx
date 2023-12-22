@@ -76,10 +76,10 @@ export const ProModal = () => {
       setLoading(true);
       const response = await axios.get("/api/stripe");
 
-      window.location.href = (await response).data.url;
+      window.location.href = response.data.url;
     } catch (error) {
       console.log(error, 'STRIPE_CLIENT_ERROR')
-    //   toast.error("Something went wrong");
+    //   ("Something went wrong");
     } finally {
       setLoading(false);
     }

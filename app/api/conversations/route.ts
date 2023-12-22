@@ -4,6 +4,8 @@ import { Configuration, OpenAIApi } from "openai";
 
 import { incrementApiLimit, checkApiLimit } from "@/lib/api-limits";
 import { checkSubscription } from "@/lib/subscription";
+
+
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 });

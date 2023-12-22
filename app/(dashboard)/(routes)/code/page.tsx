@@ -24,7 +24,6 @@ import { Empty } from "@/components/Empty";
 import { useProModal } from "@/hooks/use-pro-modal";
 
 import { formSchema } from "./constants";
-import { ProModal } from "@/components/pro-modal";
 
 const CodePage = () => {
   
