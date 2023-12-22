@@ -5,7 +5,7 @@ import prismadb from "@/lib/prismadb";
 import { stripe } from "@/lib/stripe";
 import { absoluteUrl } from "@/lib/utils";
 
-const settingsUrl = absoluteUrl("/dashboard");
+const settingsUrl = absoluteUrl("https://jay-i.netlify.app/settings");
 
 export async function GET() {
   try {
