@@ -7,6 +7,7 @@ import { absoluteUrl } from "@/lib/utils";
 
 const settingsUrl = absoluteUrl("/dashboard");
 
+//yay
 export async function GET() {
   try {
     const { userId } = auth();
@@ -18,6 +19,7 @@ export async function GET() {
 
     const userSubscription = await prismadb.userSubscription.findUnique({
       where: {
+
         userId
       }
     })

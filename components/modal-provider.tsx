@@ -9,14 +9,14 @@ export const ModalProvider = () => {
     useEffect(() => {
         setIsMounted(true);
     }, []);
-    
+
     if (!isMounted){
         return null;
     }
 
     return (
         <>
-<ProModal></ProModal>
+<ProModal />
         </>
     )
 }
